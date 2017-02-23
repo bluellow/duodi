@@ -1,0 +1,57 @@
+/* about.html	*/
+.content_l{width: 677px; height:464px;float: left;
+	border-bottom: 1px solid #c4c4c4;}
+.content_l p{text-indent:2em;}
+.content_r{float: right;width: 325px;height: 464px;}
+
+/*index.html*/
+.bigImg_wrapper{margin:0 auto;width: 1003px;font-size:0;}
+.bigImg_wrapper img{width: 100%;height: 132px;}
+
+/*菜单部分*/
+.index_content_wrap{width: 100%;border-top: 1px solid #c4c4c4;
+border-bottom: 1px solid #c4c4c4;}
+.index_content_wrap .menu{width: 261px;background: lightBlue;}
+
+.menu{float: left;}
+.menuList{padding: 0;margin: 0}
+.menuList li{position: relative; width:261px;height: 54px;
+	background:url("../image/sec_menu_bg_b.jpg");}
+.menuList li a{position:absolute; left: 80px;top: 18px;color: #0b5184;}
+.menuList .on{background:url("../image/sec_menu_bg_a.jpg");}
+.menuList .on a{color: #fff;}
+
+/*内容区右侧*/
+.index_content_r{float: right;width: 741px;height:411px;border-left: 1px solid #c4c4c4;}
+.content_r_img_wrapper{width: 741px;font-size:0;}
+.content_r_img_wrapper img{width: 100%;height: 67px;}
+
+index_content_r show{display: block;}
+/*企业新闻*/
+.content_1{display: none;}
+.content_1 ul{margin: 0;padding-left: 63px;}
+.content_1 li{position: relative;margin: 11px 0;}
+.content_1 .date{position: absolute;right: 60px;}
+.content_1 li a{color:#213832; }
+.content_1 li a:hover{color:#ff0000;}
+
+/*行业动态*/
+.content_2{display: none}
+.content_2 ul{margin: 0;padding-left: 63px;}
+.content_2 li{position: relative;margin: 11px 0;}
+.content_2 li a{color:#213832; }
+.content_2 li a:hover{color:#ff0000;}
+
+/*企业理念*/
+.content_3{display: none;}
+.content_3 p{padding-left: 63px;color:#213832;}
+
+
+/*网站留言*/
+.content_4{display: block;}
+.content_4 p{margin: 11px 0;}
+.content_4 form{margin-left: 105px;}
+.content_4 form span{display: inline-block;width: 80px;text-align: right;}
+
+.content_4 span{vertical-align:top;}
+.content_4 .textfield{width: 420px;height: 60px;overflow-y:scroll;}

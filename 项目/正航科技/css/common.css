@@ -1,0 +1,41 @@
+.public_container{
+	width: 1003px;
+	margin: 0 auto;
+}
+
+
+.public_header{
+	margin: 0 auto;
+	width: 1003px; 
+	height: 78px;
+	background: url("../image/head_bg.jpg");
+}
+
+.header_nav{
+	float: right;
+}
+
+.header_nav a{ 
+	float: left;
+	width: 90px;
+	height: 78px;
+	text-align: center;
+	line-height: 78px;
+	color: #0b5184;
+	background: url("../image/menu_bg.jpg");
+}
+
+.public_footer{
+	margin: 0 auto;
+	width: 1003px;
+	height: 78px; 
+	text-align: center;
+	line-height: 39px;
+}
+
+.blank_200{
+	height: 200px;
+}
+
+
+
