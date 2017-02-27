@@ -5,7 +5,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>关于我们</title>
  <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
- <script type="text/javascript" script="js/jquery-3.1.1.min.js"></script>
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/main.css">
@@ -16,101 +15,37 @@
 	<header class="public_header clearfix">
 		<img src="image/logo.jpg">
 		<nav class="header_nav clearfix">
-			<a href="#">首页</a>
-			<a href="#">企业新闻</a>
-			<a href="#">行业动态</a>
-			<a href="#">企业理念</a>
-			<a href="#">网站留言</a>
+			<a href="index.html">首页</a>
+			<a href="about.html?a=1">企业新闻</a>
+			<a href="about.html?a=2">行业动态</a>
+			<a href="about.html?a=3">企业理念</a>
+			<a href="about.html?a=4">网站留言</a>
 		</nav>
 	</header>
 
-	<!-- banner -->
-	<div class="bigImg_wrapper">
-		<img src="image/sec_banner.jpg">
-	</div>
-
 
 	<!-- 内容 -->
-	<div class="public_container">
-		<div class="index_content_wrap clearfix">
-			<!-- 菜单 -->
-			<div class="menu">
-				<ul class="menuList">
-					<li class="on"><a href="#">企业新闻</a></li>
-					<li><a href="#">行业动态</a></li>
-					<li><a href="#">企业理念</a></li>
-					<li><a href="#">网站留言</a></li>
-				</ul>
-			</div>
+	<div class="public_container clearfix">
+		<!-- 内容左侧部分 -->
 
-			<!-- 右侧内容 -->
-			<div class="index_content_r">
-				<div class="content_r_img_wrapper">
-					<img src="image/company_news.jpg" alt="标题">
-				</div>
-				<!-- 企业新闻内容-->
-				<div class="content_1 show">
-					<ul>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相1</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相2</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相3</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相4</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相5</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相6</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相7</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相8</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相9</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相10</a><span class="date">2013-7-12</span></li>
-						<li><a href="#">DS平拍巡展武汉店开幕 移动旗舰店亮相11</a><span class="date">2013-7-12</span></li>
-					</ul>
-				</div>
-				<!-- 行业动态内容-->
-				<div class="content_2 ">
-					<ul>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼1<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼2<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼3<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼4<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼5<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼6<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼7<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼8<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼9<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼10<a></li>
-						<li><a href="#">日本老人抗议政府没收财产 用燃烧弹烧政府大楼11<a></li>
-					</ul>
-
-				</div>
-				<!-- 企业理念内容-->
-				<div class="content_3">
-					<p>正是公司强大的凝聚力，一客户为中心的服务理念和诚信糗事的价值观正定了郑航客机的地位，体现了正航科技的竞争优势。</p>
-				</div>
-				<!-- 网站留言内容-->
-				<div class="content_4 show">
-					<form>	
-						<p><span>姓&nbsp;&nbsp;名:</span><input type="text"></p>	
-						<p><span>性&nbsp;&nbsp;别:</span><input type="radio" name="sex" checked>男<input type="radio" name="sex" selected>女</p>
-						<p><span>兴&nbsp;&nbsp;趣:</span><input type="checkbox" name="xingqu" >游戏<input type="checkbox" name="xingqu" selected>运动<input type="checkbox" name="xingqu" selected>看书<input type="checkbox" name="xingqu" selected>听音乐<input type="checkbox" name="xingqu" selected>美食<input type="checkbox" name="xingqu" selected>摄影</p>
-						<p><span>联系方式:</span><input type="text"></p>
-						<p><span>qq:</span><input type="text"></p>
-						<p><span>来自:</span><select>
-            				<option>中国大陆</option>
-                            <option>香港特别行政区</option>
-                            <option>澳门特别行政区</option>
-                            <option>台湾地区</option>
-            		 	</select></p>
-            		 	<p><span>email:</span><input type="text"></p>
-            		 	<p class="leaveMes"><span>留言:</span><textarea class="textfield"></textarea></p>
-            		 	<p>
-		                &nbsp;&nbsp;&nbsp;<input type="submit">&nbsp;
-		                <input type="reset">
-		            	</p>
-					</form>	
-				</div>
-			</div>
+		<div class="content_l">
+			<div class="content_l_head">
+				<img src="image/about_us.jpg">
+			</div>	
+			<p>正航科技在客户服务实践中完成了技术，产品，管理，市场，人才准备等有形，五星资产的积累，病迅速形成了一套从市场分析，产品设计，开发到推广的完整搞笑的运作体系。一心网络公司从2002年开始提供网站建设，网站侧或，网站开发，网站设计，SWO网站优化，网站推广，电子商务技术，多媒体光盘等五福，积累了大量的经验，同事也培养了一直成熟的技术开发团队。</p>
+			<br>
+			<p>正航科技在客户服务实践中完成了技术，产品，管理，市场，人才准备等有形，五星资产的积累，病迅速形成了一套从市场分析，产品设计，开发到推广的完整搞笑的运作体系。一心网络公司从2002年开始提供网站建设，网站侧或，网站开发，网站设计，SWO网站优化，网站推广，电子商务技术，多媒体光盘等五福，积累了大量的经验，同事也培养了一直成熟的技术开发团队。</p>
+			<br>
+			<p>正航科技在客户服务实践中完成了技术，产品，管理，市场，人才准备等有形，五星资产的积累，病迅速形成了一套从市场分析，产品设计，开发到推广的完整搞笑的运作体系。一心网络公司从2002年开始提供网站建设，网站侧或，网站开发，网站设计，SWO网站优化，网站推广，电子商务技术，多媒体光盘等五福，积累了大量的经验，同事也培养了一直成熟的技术开发团队。</p>
 		</div>
-	</div>
 
+		<!-- 内容右侧部分 -->
+		<div class="content_r">
+			<img src="image/main_banner.jpg">
+		</div>
+
+	</div>
+	
 	<!-- 尾部 -->
 	<footer class="public_footer">
 		<p>2011-2013 © 正航版权有限公司 版权所有</p>

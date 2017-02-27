@@ -37,5 +37,12 @@
 	height: 200px;
 }
 
+.show{
+	display: block;
+}
+
+.hide{
+	display: none;
+}
 
 

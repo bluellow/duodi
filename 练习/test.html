@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+
+
+	<title>首页</title>
+	<style type="text/css">
+		.divlist div{
+			width: 200px;
+			height: 200px;
+		}
+		.show{
+			display: block;
+		}
+		.hide{
+			display: none;
+		}
+	</style>
+
+</head>
+
+<body>
+	<ul class="mylist">
+		<li class="on"><a href="#">111</a></li>
+		<li><a href="#">222</a></li>
+		<li><a href="#">333</a></li>
+	</ul>
+	<div class="divlist">
+		<div class="div_0 show" style="background:#ff0000;"></div>
+		<div class="div_1 hide" style="background:#00ff00;"></div>
+		<div class="div_2 hide" style="background:#0000ff;"></div>
+	<div>
+
+
+<script src="js/jquery-3.1.1.js"></script>
+<script src="js/common.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+    var menuList = $(".menuList li a")
+    mylist.click(function(){
+        console.log("点击");
+        var $touchLi = $(this) 
+      	if($touchLi.hasClass("on")){
+
+      	}else{
+      		$(".divlist").find("div").eq($touchLi.index()).siblings().removeClass("show").addClass("hide")
+      		$(".divlist").find("div").eq($touchLi.index()).addClass("show")
+      	}
+    });
+});
+</script>
+
+
+</body>
+</html>
