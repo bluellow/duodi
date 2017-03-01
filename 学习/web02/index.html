@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+
+<style>
+
+div.box1{height:300px;}
+div{width:200px; height:120px;background:black;}
+div.box{width:400px; height:180px;background:#CCC;}
+#box{background:#f00;}
+#box .box2{background:blue;color:#fff;}
+.box.box1 .child .box2{background:red;}
+#box .child .box2:hover{color:#6C3}
+
+
+</style>
+
+</head>
+
+<body>
+	
+<!-----
+	选择器
+    
+    id选择器  #name    0 1 0 0
+	class选择器 .name  0 0 1 0
+    伪类选择器  :hover  0 0 0 2
+    标签选择器  div     0 0 0 1
+
+------>    
+    
+    
+    <div class="box box1" id="box">
+    	<div class="child">
+             <p class="box2">
+            阿萨德法师打发士大夫
+            </p>
+        </div>
+    </div>
+<p class="box"></p>
+<p></p>
+<p></p>
+<p></p>
+
+
+
+<ul>
+	<li></li>
+
+</ul>
+
+</body>
+</html>

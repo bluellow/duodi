@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css选择器</title>
+	<style>
+		*{margin:0;padding: 0;}
+		.commnd_width{width:1200px;margin:0 auto;background:#fff; ;overflow: hidden;}
+		.div_wrap{height: 300px;background: LightPink ;padding: 10px;margin:10px;}
+		
+		.div_wrap .div_head{height: 100px;background: Aquamarine;}
+		.color_head_1{background: SkyBlue;}
+		.color_head_2{background: SlateBlue;}
+		.div_head .div_title{float:left;margin:10px;width:100px;height: 80px;}
+		.div_head .div_menu{float:right;margin:10px;width:150px;height: 80px;}
+
+		.div_body{background: LemonChiffon;overflow: hidden;}
+		.box{float: left;  height:180px; ; margin-left: 10px;margin-top: 10px;margin-bottom: 10px;}
+		.box_s{width:180px;background:LightGreen;}
+		.box_m{width:280px;background:LightSalmon;}
+		.box_l{width:660px;background:Yellow;}
+	</style>
+	
+<head>
+<body>
+	<div class="commnd_width">
+
+		<div class="div_wrap">
+			<div class="div_head">
+				<div class="div_title color_head_1">title</div>
+				<div class="div_menu color_head_1">menu</div>
+			</div>
+			<div class="div_body">
+				<div class="box box_s"></div>
+				<div class="box box_m"></div>
+				<div class="box box_l"></div>
+			</div>
+		</div>
+
+		<div class="div_wrap">
+			<div class="div_head">
+				<div class="div_title color_head_1">title</div>
+				<div class="div_menu color_head_1">menu</div>
+			</div>
+			<div class="div_body">
+				<div class="box box_m"></div>
+				<div class="box box_s"></div>
+				<div class="box box_l"></div>
+			</div>
+		</div>
+
+		<div class="div_wrap">
+			<div class="div_head ">
+				<div class="div_title color_head_2">title</div>
+				<div class="div_menu color_head_2">menu</div>
+			</div>
+			<div class="div_body">
+				<div class="box box_m"></div>
+				<div class="box box_l"></div>
+				<div class="box box_s"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,47 @@
+.common_width{
+	width:1200px;
+	margin: 10px auto;
+}
+
+/*header*/
+.header{background: PaleGoldenRod; height: 100px;}
+.header .logo{float:left;width: 80px;height: 80px;margin: 10px;background: PaleGreen;}
+.header .nav{float:left;margin-left: 200px;}
+.header .nav ul li{float: left;margin:0 10px;width: 100px;height: 100px;text-align: center;background: PaleVioletRed ;}
+.header .nav ul li a{display:block;line-height: 100px;background: PaleTurquoise;}
+.header .search_box{float:right; width: 200px;height: 60px; background: PapayaWhip;
+	margin-right: 20px;margin-top: 20px;}
+.header .search_text{float:left; margin:10px;width:120px;height: 40px;background: PeachPuff;}
+.header .search_btn{float:right; margin:10px; width: 20px;height: 40px;background: Peru ;}
+
+/*banner*/
+.banner{height: 300px;background: Pink;}
+.banner li{width: 100px;height: 80px;line-height: 80px;background: Plum ;}
+
+/*hot*/
+.hot{height: 200px;background: PaleGoldenRod;}
+.hot .hot_list_box{float:left;width:270px;height: 180px;margin:10px;background: PaleTurquoise;}
+.hot .hot_list_box li{float:left;width:80px;height: 80px;margin:5px;}
+.hot .hot_list_box li a{display: block;width:100%;height:100%;background: PaleGreen;}
+.hot .showPic{float:right;width: 850px;height: 180px;margin:10px 30px;background:PaleTurquoise; }
+.hot div{float: left;margin:10px;width: 260px;height: 160px;background: PaleVioletRed ;}
+
+/*content*/
+.content{height: 260px;background:PaleGoldenRod;overflow: hidden;}
+.content .c_head{margin:10px;height:40px;background: PaleTurquoise ;}
+.content .c_head .c_title{float: left;margin:10px;height: 20px;width: 100px;background: LightCoral;}
+.content .c_head .c_nav{float: right;}
+.content .c_head .c_nav li{float: left;width: 100px;height: 20px;margin:10px;}
+.content .c_body{margin:10px;height: 180px; background: PapayaWhip ;}
+.content .c_body .picList li{float:left;height:160px;margin:10px;width: 350px;background: LightSeaGreen;}
+
+/*ad*/
+.ad{background:PaleGoldenRod;overflow: hidden;}
+.ad .adList{margin:10px;}
+.ad .adList li{float:left;width: 270px;height:60px;margin:10px;background: YellowGreen ;}
+
+/*footer*/
+.footer{height: 160px;background: LightSalmon;padding: 20px;}
+.footer .companyInfo{position:relative;width: 800px;margin:0 auto;height: 160px;background: PaleGreen ;}
+.footer .qrCore{position: absolute;width: 100px;height: 100px;background: LightSteelBlue;    left: 850px;
+    top: 30px;}
